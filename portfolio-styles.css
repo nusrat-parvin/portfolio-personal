@@ -1,7 +1,40 @@
 *{
     margin: 0;
     color: brown;
+    /* background-color: rgb(241, 219, 190); */
 }
 h1{
     font-weight: bold;
+    
+}
+header{
+    justify-content: space-between;
+    background-image: url(../portfolio-resources/images/hardy.png);
+}
+h3{
+    font-size: 2rem;
+}
+nav{
+    justify-content:space-between;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+nav ul li{
+    display: flex;
+    list-style-type: none;
+    padding-right:40px ;
+    
+}
+#span{
+    color: white;
+}
+
+button{
+    background-color: darkseagreen;
+    padding: 10px;
+
 }
